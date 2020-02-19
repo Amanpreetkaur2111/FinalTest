@@ -49,9 +49,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:background="#065"
+            android:background="#3aa8c1"
             android:text="@string/edit"
-
             android:textColor="#fff" />
 
         <Button
@@ -59,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:background="#922"
+            android:background="#141414"
             android:text="@string/delete"
             android:textColor="#fff" />
     </LinearLayout>

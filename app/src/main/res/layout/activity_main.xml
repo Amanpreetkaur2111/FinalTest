@@ -13,6 +13,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,6 +21,8 @@
             android:text="@string/add_your_information"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
 
 
         <EditText

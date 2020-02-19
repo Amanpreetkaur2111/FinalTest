@@ -7,8 +7,17 @@
     tools:context=".UserActivity">
 
 
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Here"/>
+
+
+
     <ListView
         android:id="@+id/lvUser"
+        android:layout_below="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

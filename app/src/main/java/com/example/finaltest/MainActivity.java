@@ -6,11 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.SearchView;
 import android.widget.Toast;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     DatabaseHelper mDatabase;
+
+
 
     EditText editTextFirstName,editTextLastName,editTextPhoneNumber,editTextAddress;
 
@@ -26,6 +31,8 @@ mDatabase =new DatabaseHelper(this);
         editTextLastName = findViewById(R.id.editTextLastName);
         editTextPhoneNumber = findViewById(R.id.editTextPhoneNumber);
         editTextAddress = findViewById(R.id.editTextAddress);
+
+
 
         findViewById(R.id.btnAddUser).setOnClickListener(this);
         findViewById(R.id.tvViewAdded).setOnClickListener(this);
